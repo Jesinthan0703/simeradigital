@@ -1,6 +1,6 @@
 .hero {
   min-height: 100vh;
-  background-image: url("simera.jpg");
+
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -12,6 +12,7 @@ body {
 .hero-tagline {
   font-size: 10rem;
 }
+
 
 .intro-icon {
   font-size: 7rem;
@@ -61,4 +62,21 @@ body {
   #footer-links-container ul {
     padding-left: 80px !important;
   }
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('simera.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-transparent { 
+  background-color: transparent !important; 
 }
