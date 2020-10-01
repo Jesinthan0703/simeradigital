@@ -65,11 +65,8 @@ body {
 .parallax {
   /* The image used */
   background-image: url("simera logos/simera.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
+  height: fit-content;
+  width: fit-content;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
